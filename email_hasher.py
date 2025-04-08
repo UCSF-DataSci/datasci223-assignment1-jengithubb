@@ -68,6 +68,8 @@ def main():
 
     email_address = sys.argv[1]
     hashed_email = hash_email(email_address)
+    print(email_address)
+    print(hashed_email)
     write_hash_to_file(hashed_email)
     pass
 
