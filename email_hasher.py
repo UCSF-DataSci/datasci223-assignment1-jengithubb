@@ -66,9 +66,9 @@ def main():
         print("Usage: python email_hasher.py <email.address>", file = sys.stderr)
         sys.exit(1)
 
-    email = sys.argv[1]
-    hash_value = hash_email(email)
-    write_hash_to_file(hash_value)
+    email_address = sys.argv[1]
+    hashed_email = hash_email(email_address)
+    write_hash_to_file(hashed_email)
     pass
 
 if __name__ == "__main__":
