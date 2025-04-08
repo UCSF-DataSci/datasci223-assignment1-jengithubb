@@ -31,7 +31,9 @@ def hash_email(email):
     # 3. Return the hash in hexadecimal format
     email_bytes = email.encode('utf-8')
     hash_value = hashlib.sha256(email_bytes)
-    return hash_value.hexdigest()
+    hex_email = hash_value.hexdigest()
+    print(hex_email)
+    return hex_email
 
     pass
 
@@ -49,7 +51,7 @@ def write_hash_to_file(hash_value, filename="hash.email"):
     # 3. Close the file
     with open(filename, "w") as file:
         file.write(hash_value + "\n")
-
+    file.close()
     pass
 
 def main():
@@ -68,8 +70,6 @@ def main():
 
     email_address = sys.argv[1]
     hashed_email = hash_email(email_address)
-    print(email_address)
-    print(hashed_email)
     write_hash_to_file(hashed_email)
     pass
 
