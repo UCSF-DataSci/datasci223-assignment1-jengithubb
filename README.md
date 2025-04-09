@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6fFVVHyL)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18978218)
 # GitHub and Python Foundations Assignment
 
 ## Overview
@@ -48,10 +50,11 @@ This assignment will help you practice:
 
 ### Part 1: Update this README.md
 Replace the "Part 1" section with:
-- A brief introduction about yourself (first name only)
-- What you're hoping to get out of this course
-- Topics you would like to see included
-- A musical recommendation and a link to something about it (song, album, artist)
+- Hi, my name is Jennifer.
+- I’m hoping to get more comfortable using Python and learn more about PyTorch. I also want to gain a deeper understanding of advanced data science topics, especially things like large language models, and really understand how they work. Overall, I’d like to come out of this course with both the knowledge and the confidence to apply these concepts in real projects.
+- If possible, I would like to see topics included such as generative AI with images, large language models, natural language processing, deep learning with PyTorch, and reinforcement learning.
+- I recently rediscovered this [song](https://www.youtube.com/watch?v=Xy9heqcKLAI&ab_channel=BTS-Topic)
+ in one of my old playlists
 
 ### Part 2: Complete the email_hasher.py Script
 The email_hasher.py script should:
